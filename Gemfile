@@ -6,7 +6,7 @@ gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
 group :production do
-	gem 'pg'
+gem 'pg'
 end
 
 group :development, :test do
@@ -39,7 +39,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-
+gem 'rails_12factor', group: :production
 
 
 # Use ActiveModel has_secure_password
