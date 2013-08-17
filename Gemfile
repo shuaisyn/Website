@@ -2,7 +2,7 @@ source 'http://ruby.taobao.org'
 
 gem 'devise'
 
-gem 'simple_form'
+gem "simple_form"
 
 gem 'bootstrap-sass-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
